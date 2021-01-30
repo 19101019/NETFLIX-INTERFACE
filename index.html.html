@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">"><
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>BLOGGING</title><a href="C:\Users\tele world\Desktop\my files\suven\movie\p2.css" rel='stylesheet' type='text/css'></a>
+   </head> <style>
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer
+{
+  background-color: rgba(37, 37, 37, 0.575);
+  height: 45vh;
+}
+.footer ul {
+  list-style: none;
+  
+}
+.footer ul li{
+  float: left; 
+  text-transform: uppercase;
+  margin-left: 12%;margin-top: 1%;
+color: blanchedalmond;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+.footer ul li:hover{
+  color: #bbff00;
+}
+
+header{
+background-color: rgba(37, 37, 37, 0.575);
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  padding:10px 30px;
+  padding:10px 30px; 
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.column1 {
+float: left;
+width: 33%;padding: 10px;
+height: 120vh; column-gap: 69px;
+}
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+}
+.JI{
+padding: 10px;
+justify-content:left;
+align-items: left;
+cursor: pointer;
+
+}
+
+.JI p{
+position: relative;
+margin: 3%;
+font-size: 50px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.search-box input {
+padding-right: 25px;
+min-height: 45px;margin-top: 5;
+width: 305px;font-size: 22px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+border: none;
+background: #fbfcfa;
+border-radius: 5px !important;
+}
+.search-box input:focus {		
+background: rgb(232, 245, 186);
+box-shadow: 2px 2px 60px  rgb(228, 248, 157);
+}
+.search-box .input-group-addon {
+width: 55px;
+border: none;
+background: transparent;
+position: absolute;
+right: 0;
+z-index: 9;
+
+height: 100%;
+}
+.search-box i {
+color: #d0f595;
+font-size:25px;
+}
+.navarea{
+  list-style: none;
+  background-color: rgb(179, 177, 177);
+
+}
+.navarea li{
+  display: inline-block;
+  padding: 5px 3px;
+  margin-left: 6%;
+}
+
+.navarea li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 18px;
+}
+
+.navarea li a:hover{
+  color:rgb(119, 156, 33);
+  
+}
+nav{
+  background-color: rgb(61, 61, 61);
+}
+.navarea1{
+  list-style: none;
+  
+  
+}
+.navarea1 li{
+  display: inline-block;
+  padding: 0px 1px;
+  margin-left:12% ;
+}
+
+.navarea1 li a{
+color: rgba(231, 227, 227, 0.719); 
+ text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 16px;
+}
+
+.navarea1
+ li a:hover{
+  color:rgb(218, 160, 1);
+  
+}
+
+
+button{
+ padding: 8px;
+ font-size: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+border: yellowgreen;
+background-color: yellowgreen;
+
+}
+button a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ text-decoration: none;
+ 
+color:rgb(0, 0, 0);
+}
+button:hover{
+  background-color: rgb(253, 152, 0);
+  box-shadow: 2px 2px 60px  rgb(253, 152, 0);
+  
+}
+button a:hover{
+  color: whitesmoke;
+}
+
+.column {
+float: left;
+width: 50%;
+padding: 1px;
+height: 48px; /* Should be removed. Only for demonstration */
+}
+.column p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;padding: 8px;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+
+}
+@media screen and (max-width: 702px) {
+.column {
+width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+
+}
+
+.search-box input{
+min-width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+}
+.navarea{
+  width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+}
+.navarea1{
+  width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+}
+.row{
+  width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+}
+.column1{
+  width: 100%;
+float: left;
+min-height: 300px;
+overflow: hidden;
+}
+.JI p{
+  width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+font-size: 20px;
+margin: 0%;
+}
+
+}
+
+
+
+
+body{
+background-color: rgba(148, 148, 148, 0.39);
+}
+.line{
+height: 10px;
+max-width: 98%;
+background-color: rgb(122, 122, 122);
+margin-top: 1%;
+margin-left: 1%;
+border-radius: 15px;
+}
+.content{
+margin: 9px;
+padding: 8px;
+border-radius: 20%;
+}
+.blog{
+  margin: 9px;
+padding: 8px;
+border-radius: 20%;
+width: 100%;
+}
+.content h2{
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;color: rgba(24, 23, 23, 0.692);
+font-weight: bold;
+text-align: center;text-transform: uppercase;
+}
+.blog{
+  max-width: 100%;
+  border-radius: 0%;
+}
+
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;color: rgba(27, 27, 27, 0.651);
+
+    text-align: center;padding: 20px
+}
+.content p span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;color: rgba(8, 8, 8, 0.726);
+    font-weight: bold;
+    text-align: center;padding: 20px
+}
+.bird{
+border-radius: 4%;
+padding: 1px;
+margin: 20px;float: left;
+max-width: 100%;
+}
+
+.content p a{
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    font-size: 17px;font-family: 'Times New Roman', Times, serif;
+}
+.content p a:hover{
+  text-decoration:solid underline;
+  color: rgb(255, 0, 0);
+    font-size: 20 px;font-family: 'Times New Roman', Times, serif;
+
+}
+
+      /* media queries */
+      
+      @media screen and (max-width: 700px){
+ 
+
+        .column1{
+  width: 100%;
+float: left;
+min-height: 500px;
+overflow: hidden;
+}
+
+nav{
+  width: 100%;
+float: left;
+min-height: 100%;
+overflow: hidden;
+}}
+     
+      
+      @media screen and (max-width: 110px){
+       
+            
+            .footer{
+              margin-left: 10px;
+              background-color: rgba(48, 47, 46, 0.829);
+              height: 40vh;
+            }
+            
+              .wrapper{flex-direction: column;
+    flex-flow: column-wrap;
+    margin-left: 1%;
+  
+    }
+
+.wrapper ul {
+  list-style: none;flex-direction: column;
+    flex-flow: column-wrap;
+    margin-left: 1%;
+}
+            
+
+.footer ul{
+  margin-left: 25%;
+  list-style: none;
+}
+.footer ul li{
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fbfcfa;font-size: 1.3em;
+}}
+.li  p{ 
+  color:azure;
+  font-size:20px;
+ text-transform: uppercase;}
+ 
+  .u p{
+    color:azure;
+  font-size:15px;
+  }
+
+
+.footer.wrapper {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul{  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+ .wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  
+  
+  float: left;
+  transition: all 0.2s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  margin-top: 20px;margin-left: 420px;
+  transition: all 0.2s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+
+
+ .wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.2s ease;
+}
+
+/*twitter*/
+
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.2s ease;
+}
+
+/* instagram */
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.2s ease;
+}
+
+/* google */
+
+.wrapper ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.2s ease;
+}
+
+/* whatsapp */
+
+.wrapper ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.2s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+  .wrapper {
+      width: 350px;
+  }
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+  .wrapper ul li.whatsapp{
+      margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .wrapper {
+      width: 150px;
+  }
+  .wrapper ul li{
+      margin:15px;
+  }
+  .wrapper ul li.google{
+      margin-left: 15px;
+  }
+}
+
+
+
+
+</style>
+<header><div class="JI"><p>BLOGGING</p></div><br><br>
+   <div class="input-group search-box">								
+      <input type="text" id="search" class="form-control" placeholder=" Google Searh here...">
+      <span class="input-group-addon"></span><button>GET STARTED !</button>
+     
+    </div><br>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <p>  total views: 876</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        
+        <p> total users: 643</p>
+      </div>
+    </div>
+  </header>
+<nav>
+  <ul class="navarea">
+    <li> <a href="#">HOME</a></li>
+    <li> <a href="#">NATION</a></li>
+    <li> <a href="#">SPORTS</a></li>
+    <li> <a href="#">POLITICS</a></li>
+    <li> <a href="#">ENTERTAINMENT</a></li>
+    <li> <a href="#">SEARCH</a></li><li> <a href="#">CONTACT US
+
+    </a></li>
+  </ul>
+</nav>
+  
+<body>
+   <div class="line"></div> 
+   <div class="content">
+
+    <div class="row1">
+      <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+       <img src="sk1.jpg" class="bird"> <h2>SHOULD TWITTER GET RID OF FOLLOWER COUNTS</h2>
+        <p>The possibility feels closer than ever it's still a great metric, but looking at engagement to content is more important overall.” Whatever the case, I still don't agree with removing follower counts altogether. Conversations are what make Twitter such an engaging platform. ... This, to my mind, is what's still best about Twitter.<br><br>
+        <span> Cool Neha in all things creative<br>  Jan 9 . 5 min read</span></p>
+      </div>
+      <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+        <img src="sk2.jpg" class="bird"> <h2>HTML</h2>
+        <p>Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+        <img src="sk21.png" class="bird">
+      <p>What are CSS Animations? An animation lets an element gradually change from one style to another. </p>
+      <br><img src="sk3.jpg" class="bird">
+     <p>You've seen the craze for learning code. But what exactly is coding? Coding is what makes it possible for us to create computer software, apps and websites.</p>
+    </div>
+      <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+        <img src="sk22.jpg" class="bird"><h2>THEORY OF COOKING</h2>
+        <p>Theory of Cookery explains the techniques and technologies involved in cooking food. It explores cooking as a chemical process that involves the blending ofdifferent types and levels of cuisine, from the simple to the haute cuisine. It discusses various cooking methods like baking boiling, ...
+        <a href="#">( Read more..)</a><br><br><span>Krishna Arora<br>   Jan 29 . 5 min read . blog
+        </span></p>
+      </div>
+    </div>
+   </div><div class="line"></div> 
+<div class="blog1">
+  <img src="blog.png" class="blog">
+</div><div class="line"></div> 
+
+
+<div class="content">
+
+  <div class="row1">
+    <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+     <img src="c1.jpg" class="bird"> <h2>WHY SHOULD YOU LEARN CODING</h2>
+      <p>Coding is basically the computer language used to develop apps, websites, and software. Without it, we'd have none of the most popular technology we've come to rely on such as Facebook, our smartphones, the browser we choose to view our favorite blogs, or even the blogs themselves. It all runs on code.<br><br>
+      <span>Rocky jagtiani<br>  July 13 . 5 min read</span></p>
+    </div>
+    <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+      <img src="d1.jpg" class="bird"> 
+      <p>Insightful news and analysis that helps investors make crucial decisions. Providing headlines on investment strategies, investing ideas and market trends.During a wild year in financial markets, a handful of women-run investment funds beat just about everyone with savvy long term bets on everything from Tesla to all</p>
+      <img src="d2.jpg" class="bird">
+    <p>Beauty is the ascription of a property or characteristic to a person, object, animal, place or idea that provides a perceptual experience of pleasure or satisfaction</p>
+    </div>
+
+    <div class="column1" style="background-color:rgba(214, 203, 154, 0.651);">
+      <img src="d4.jpg" class="bird"><h2> ‘double planet’ to land on winter solstices</h2>
+      <p>Jupiter and Saturn Will Form a Rare 'Double Planet' in the Sky Tonight. Jupiter and Saturn will appear to align tonight, creating a "double planet" in the night sky. It's the first time since the middle ages the planets have aligned this close. You can see this planetary conjunction on the winter solstice
+      <a href="#">( Read more..)</a><br><br><span>Tom Carries  Daylous<br>   Sept 7 . 5 min read . blog
+      </span></p>
+    </div>
+    
+  </div>
+
+  <div class="line"></div><br>
+  <div class="footer">
+  <ul>
+      <li>about us</li> <li>privacy policy</li><li>newsletter</li><li>sitemap</li>
+      </ul>
+    <br><br><br>
+
+  <div class="li"><p> follow us on:</p> </div>               
+   <div class="wrapper">
+    <ul><li class="google"><a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+      <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+      <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+      <li class="instagram"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+      <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li> 
+    </ul>
+  </div><br><br><br>
+  <div class="u"><p>Copyright&copy 2019<br>Suven consultants and technology pvt ltd</p></div>
+</div>
+  </body>
+</html>

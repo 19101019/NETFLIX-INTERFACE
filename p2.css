@@ -1,0 +1,165 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-color: rgba(37, 37, 37, 0.575);
+display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  padding:10px 30px;
+  padding:10px 30px; 
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.column1 {
+float: left;
+width: 33%;padding: 10px;
+height: 100vh; 
+}
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+}
+.JI{
+padding: 10px;
+justify-content:left;
+align-items: left;
+cursor: pointer;
+
+}
+
+.JI p{
+
+
+
+position: relative;
+margin: 3%;
+font-size: 50px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.search-box input {
+padding-right: 25px;
+min-height: 45px;margin-top: 5;
+width: 305px;font-size: 22px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+border: none;
+background: #fbfcfa;
+border-radius: 5px !important;
+}
+.search-box input:focus {		
+background: rgb(232, 245, 186);
+box-shadow: 2px 2px 60px  rgb(228, 248, 157);
+}
+.search-box .input-group-addon {
+width: 55px;
+border: none;
+background: transparent;
+position: absolute;
+right: 0;
+z-index: 9;
+
+height: 100%;
+}
+.search-box i {
+color: #d0f595;
+font-size:25px;
+}
+.navarea{
+  list-style: none;
+  background-color: rgb(179, 177, 177);
+
+}
+.navarea li{
+  display: inline-block;
+  padding: 5px 3px;
+  margin-left: 6%;
+}
+
+.navarea li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 18px;
+}
+
+.navarea li a:hover{
+  color:rgb(119, 156, 33);
+  
+}
+button{
+ padding: 8px;
+ font-size: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+border: yellowgreen;
+background-color: yellowgreen;
+
+}
+button a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ text-decoration: none;
+ 
+color:rgb(0, 0, 0);
+}
+button:hover{
+  background-color: rgb(253, 152, 0);
+  box-shadow: 2px 2px 60px  rgb(253, 152, 0);
+  
+}
+button a:hover{
+  color: whitesmoke;
+}
+.column {
+float: left;
+width: 50%;
+padding: 1px;
+height: 48px; /* Should be removed. Only for demonstration */
+}
+.column p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;padding: 8px;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+
+}
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
+
+body{
+background-color: rgba(148, 148, 148, 0.39);
+}
+.line{
+height: 10px;
+width: 98%;
+background-color: rgb(122, 122, 122);
+margin-top: 1%;
+margin-left: 1%;
+border-radius: 15px;
+}
+.content{
+margin: 9px;
+padding: 12px;
+border-radius: 20%;
+}
+
+.bird{
+border-radius: 30%;
+padding: 3px;
+margin: 20px;
+}
